@@ -1,7 +1,10 @@
+import {Header} from './components/Header';
+import './style/global.scss';
+
 function App() {
   return (
-    <h1>Future React App</h1>
-  )
+    <Header />
+  );
 }
 
 export default App;
