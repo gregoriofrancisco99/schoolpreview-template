@@ -1,4 +1,4 @@
-import './../style/header.scss';
+import './../assets/style/header.scss';
 import {MenuItem} from './MenuItem';
 import {SocialLink} from './SocialLink';
 
@@ -13,7 +13,7 @@ export function Header() {
     <header>
       <div id="upper-div">
         <div id="logo">
-          <a href="#">
+          <a href="free">
             <h1>Our Company</h1>
             <p id="slogan">Aprenda com quem sabe ensinar</p>
           </a>
@@ -22,7 +22,7 @@ export function Header() {
         <div id="contact-info">
           <div id="time-table">
             <span>
-              <img src={clockIcon}></img>
+              <img src={clockIcon} alt="Clock Icon"></img>
             </span>
             <div className="info">
               <h2 id="weekday">Segunda à Sexta</h2>
@@ -32,7 +32,7 @@ export function Header() {
   
           <div id="call-us">
             <span>
-              <img src={phoneIcon}></img>
+              <img src={phoneIcon} alt="Phone icon"></img>
             </span>
             <div className="info">
               <h2>Call Us</h2>
