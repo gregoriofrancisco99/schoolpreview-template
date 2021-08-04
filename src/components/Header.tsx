@@ -1,4 +1,4 @@
-import './../style/header.scss';
+import './../assets/style/header.scss';
 import {MenuItem} from './MenuItem';
 import {SocialLink} from './SocialLink';
 

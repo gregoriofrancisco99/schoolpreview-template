@@ -1,9 +1,15 @@
 import {Header} from './components/Header';
-import './style/global.scss';
+import { Home } from './pages/Home';
+
+import './assets/style/global.scss';
+
 
 function App() {
   return (
-    <Header />
+      <div id="wrapper">
+        <Header />
+        <Home />
+      </div>
   );
 }
 

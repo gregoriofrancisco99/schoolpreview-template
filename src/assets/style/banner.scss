@@ -1,0 +1,80 @@
+#banner {
+  height: 100vh;
+  width: 100%;
+  padding: 7em;
+
+  background: url("./../img/background.jpeg") no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  #welcome-announce {
+    width: 40%;
+    padding-top: 1em;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+    h2 {
+      margin-bottom: 0.5em;
+
+      font-size: 0.8em;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: #fff;
+    }
+    p {
+      font-size: 1em;
+      line-height: 1.5em;
+      color: #fff;
+      margin-bottom: 1em;
+
+      strong {
+        font-size: 2.5em;
+        text-transform: capitalize;
+        line-height: 1.2em;
+      }
+    }
+    #see-curses-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+
+      padding: 1em 2em;
+
+      font-size: 0.75em;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+
+      border: solid 1px #acd0d6;
+      border-radius: 0.35em;
+      transition: all ease 0.15s;
+
+      &:hover {
+        border: solid 1px #eefafc;
+        background: #85b3bb;
+        color: #fff;
+      }
+      &:active {
+        filter: brightness(0.9);
+      }
+
+      span {
+        margin: 0 0.5em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          width: 13px;
+          max-width: 13px;
+        }
+      }
+    }
+  }
+}
