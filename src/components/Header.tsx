@@ -43,7 +43,7 @@ export function Header() {
           <div id="social-links">
             <nav>
               <ul>
-                <li>
+                <li id="fbIcon">
                   <SocialLink name="Facebook" url="https://facebook.com" target="blank" source={facebookIcon} alt="facebook logo"/>
                 </li>
                 <li>
@@ -61,10 +61,11 @@ export function Header() {
       <div id="bottom-div">
         <ul>
           <nav>
-            <MenuItem name="Home" url="#" target="_self" />
+            <MenuItem name="Home" url="#home" target="_self" />
             <MenuItem name="Cursos" url="#" target="_self" />
             <MenuItem name="Preços" url="#" target="_self" />
             <MenuItem name="Sobre" url="#" target="_self" />
+            <MenuItem name="Fale Connosco" url="#contactUs" target="_self" />
             <MenuItem name="Equipa" url="#" target="_self" />
           </nav>
         </ul>

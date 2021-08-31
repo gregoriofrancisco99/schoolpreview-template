@@ -1,9 +1,10 @@
 import arrowRight from './../assets/icons/arrow-right.svg';
-import './../assets/style/banner.scss';
+import './../assets/style/home.scss';
 
 export function Home() {
   return (
-    <div id="banner">
+    <div id="home">
+      <div id="banner">
       <article id="welcome-announce">
         <h2>Bem-vindo ao nosso centro</h2>
         <p><strong>Profissionalidade na educação</strong></p>
@@ -12,6 +13,7 @@ export function Home() {
         </p>
         <button id="see-curses-btn">Ver Cursos <span><img src={arrowRight} alt="" /></span></button>
       </article>
+    </div>
     </div>
   );
 }

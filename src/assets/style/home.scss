@@ -1,18 +1,19 @@
 #banner {
   height: 100vh;
   width: 100%;
-  padding: 7em;
+  padding-left: 7em;
 
   background: url("./../img/background.jpeg") no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
 
   #welcome-announce {
     width: 40%;
-    padding-top: 1em;
+    padding-top: 10em;
 
     display: flex;
     align-items: flex-start;
@@ -54,12 +55,16 @@
 
       border: solid 1px #acd0d6;
       border-radius: 0.35em;
-      transition: all ease 0.15s;
+      transition: all ease 0.25s;
 
       &:hover {
         border: solid 1px #eefafc;
         background: #85b3bb;
         color: #fff;
+
+        img {
+          filter: invert(1);
+        }
       }
       &:active {
         filter: brightness(0.9);

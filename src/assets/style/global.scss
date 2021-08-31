@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -16,4 +17,8 @@ a {
 }
 .hide {
   display: none;
+}
+header,
+#banner {
+  text-shadow: horizontal-offset vertical-offset blur color;
 }
